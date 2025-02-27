@@ -1,6 +1,5 @@
 package com.crm.objectrepository;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -14,6 +13,9 @@ public class Homepage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	
+	@FindBy(xpath ="//a[text()='Products']")
+	private WebElement prodlink;
 	
 	@FindBy(xpath ="(//a[text()='Organizations'])[1]")
 	private WebElement orglink;
