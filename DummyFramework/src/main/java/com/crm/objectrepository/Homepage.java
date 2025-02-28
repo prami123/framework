@@ -14,12 +14,6 @@ public class Homepage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath ="//a[text()='Products']")
-	private WebElement ele2; 
-	
-	@FindBy(xpath ="//a[text()='Products']")
-	private WebElement ele4;
-	
 	
 	@FindBy(xpath ="//a[text()='Products']")
 	private WebElement prodlink;
