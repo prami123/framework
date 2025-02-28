@@ -16,6 +16,9 @@ import com.crm.generic.webdriverUtility.WebdriverUtility;
 public class Loginpage extends WebdriverUtility {
 	WebDriver driver;
 	
+	@FindBy(name="title")
+	private WebElement logintitle;
+	
 	//Autohealing (OR)
 	@FindAll({@FindBy(name="user_nam"), @FindBy(xpath="//input[@name='user_name']"), @FindBy(xpath="//input[@type='text']")})
 	private WebElement usernametxtfield1;
