@@ -18,6 +18,9 @@ public class Homepage {
 	private WebElement ele2; 
 	
 	@FindBy(xpath ="//a[text()='Product']")
+	private WebElement ele3;
+	
+	@FindBy(xpath ="//a[text()='Product']")
 	private WebElement ele5;
 	
 	@FindBy(xpath ="//a[text()='Products']")
