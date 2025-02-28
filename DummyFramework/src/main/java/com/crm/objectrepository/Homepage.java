@@ -14,21 +14,6 @@ public class Homepage {
 		PageFactory.initElements(driver, this);
 	}
 	
-<<<<<<< HEAD
-	@FindBy(xpath ="//a[text()='Products']")
-=======
-	@FindBy(xpath ="//a[text()='Products']")
-	private WebElement ele1;
-	
-	@FindBy(xpath ="//a[text()='Products']")
-	private WebElement ele2;
-	
-	@FindBy(xpath ="//a[text()='Products']")
-	private WebElement ele3;
-	
-	@FindBy(xpath ="//a[text()='Products']")
->>>>>>> branch 'master' of https://github.com/Prami369/Dautoframeworks.git
-	private WebElement prodlink;
 	
 	@FindBy(xpath ="(//a[text()='Organizations'])[1]")
 	private WebElement orglink;
