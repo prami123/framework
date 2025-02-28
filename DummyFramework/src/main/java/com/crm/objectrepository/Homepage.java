@@ -20,8 +20,6 @@ public class Homepage {
 	@FindBy(xpath ="//a[text()='Products']")
 	private WebElement ele4;
 	
-	@FindBy(xpath ="//a[text()='Products']")
-	private WebElement ele5;
 	
 	@FindBy(xpath ="//a[text()='Products']")
 	private WebElement prodlink;
